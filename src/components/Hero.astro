@@ -17,16 +17,12 @@ const { identity } = cv;
         <a class="link" href={identity.linkedin.url} rel="me noopener">{identity.linkedin.label}</a>
       </li>
     </ul>
-    {
-      /* TODO(USERNAME): after adding public/EKO_CV.pdf, uncomment this download link.
-      <a
-        class="mt-8 inline-block rounded border border-accent px-4 py-2 font-mono text-xs uppercase tracking-widest text-accent transition-colors hover:bg-accent hover:text-ink"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}EKO_CV.pdf`}
-        download
-      >
-        Download CV (PDF)
-      </a>
-      */
-    }
+    <a
+      class="mt-8 inline-block rounded border border-accent px-4 py-2 font-mono text-xs uppercase tracking-widest text-accent transition-colors hover:bg-accent hover:text-ink"
+      href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}EKO_CV.pdf`}
+      download
+    >
+      Download CV (PDF)
+    </a>
   </div>
 </section>

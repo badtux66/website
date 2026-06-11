@@ -9,7 +9,7 @@ import cv from '../data/cv.json';
       !cv.referencesPublic && (
         <div class="mt-8 max-w-prose rounded border border-line px-6 py-5">
           <p class="text-lg">{cv.referencesNote}</p>
-          <p class="mt-3 text-sm text-muted">
+          <p class="mt-3 text-sm text-muted print:hidden">
             <a class="link" href={`mailto:${cv.identity.email}`}>
               Email {cv.identity.name}
             </a>{' '}

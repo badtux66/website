@@ -50,3 +50,62 @@
     @apply text-body underline decoration-line underline-offset-4 transition-colors hover:text-accent hover:decoration-accent;
   }
 }
+
+/* Light palette for printing / "Download CV" PDF export. Placed after the Tailwind layers so
+   the !important overrides win over utility classes. */
+@media print {
+  header,
+  footer,
+  .skip-link,
+  a[download] {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  h1,
+  h3,
+  .font-semibold {
+    color: #111827 !important;
+  }
+
+  .text-body,
+  .text-muted,
+  p,
+  li {
+    color: #374151 !important;
+  }
+
+  .text-accent {
+    color: #0f766e !important;
+  }
+
+  .bg-accent {
+    background-color: #0f766e !important;
+  }
+
+  .bg-ink {
+    background-color: #ffffff !important;
+  }
+
+  .border-line {
+    border-color: #d1d5db !important;
+  }
+
+  section[id] {
+    scroll-margin-top: 0;
+  }
+
+  li,
+  h2,
+  h3 {
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+}
