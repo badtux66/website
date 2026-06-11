@@ -6,7 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // If you deploy to a repo named something other than 'website', update `base` to match.
 export default defineConfig({
   site: 'https://ekozturk.com',
-  base: '/website',
-  output: 'static',
   integrations: [tailwind(), sitemap()],
 });
