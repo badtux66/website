@@ -1,0 +1,19 @@
+---
+import cv from '../data/cv.json';
+---
+
+<section id="competencies" aria-labelledby="competencies-title" class="border-b border-line">
+  <div class="mx-auto max-w-content px-5 py-16 sm:py-20">
+    <h2 id="competencies-title" class="section-title">Core Competencies</h2>
+    <ul class="mt-8 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+      {
+        cv.competencies.map((competency) => (
+          <li class="flex items-center gap-3">
+            <span aria-hidden="true" class="h-2 w-2 shrink-0 bg-accent" />
+            <span>{competency}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

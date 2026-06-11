@@ -1,0 +1,25 @@
+---
+import cv from '../data/cv.json';
+---
+
+<section id="skills" aria-labelledby="skills-title" class="border-b border-line">
+  <div class="mx-auto max-w-content px-5 py-16 sm:py-20">
+    <h2 id="skills-title" class="section-title">Technical Skills</h2>
+    <div class="mt-8 space-y-10">
+      {
+        cv.skills.map((group) => (
+          <div>
+            <h3 class="font-mono text-xs uppercase tracking-[0.2em] text-muted">{group.group}</h3>
+            <ul class="mt-4 flex flex-wrap gap-2">
+              {group.items.map((item) => (
+                <li class="rounded border border-line px-2.5 py-1 font-mono text-xs uppercase tracking-wide">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

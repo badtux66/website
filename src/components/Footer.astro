@@ -1,0 +1,23 @@
+---
+import cv from '../data/cv.json';
+
+const { identity } = cv;
+const year = new Date().getFullYear();
+---
+
+<footer
+  class="mx-auto flex max-w-content flex-wrap items-center justify-between gap-x-8 gap-y-3 px-5 py-10 text-sm text-muted"
+>
+  <p>
+    © {year}
+    {identity.name} · {identity.title}
+  </p>
+  <ul class="flex flex-wrap gap-x-5 gap-y-1">
+    <li>
+      <a class="link" href={`mailto:${identity.email}`}>Email</a>
+    </li>
+    <li>
+      <a class="link" href={identity.linkedin.url} rel="me noopener">LinkedIn</a>
+    </li>
+  </ul>
+</footer>

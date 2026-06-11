@@ -1,0 +1,44 @@
+---
+import cv from '../data/cv.json';
+---
+
+<section id="education" aria-labelledby="education-title" class="border-b border-line">
+  <div class="mx-auto max-w-content px-5 py-16 sm:py-20">
+    <h2 id="education-title" class="section-title">Education &amp; Languages</h2>
+    <div class="mt-8 grid gap-12 sm:grid-cols-2">
+      <div>
+        <h3 class="font-mono text-xs uppercase tracking-[0.2em] text-muted">Education</h3>
+        <ul class="mt-4 space-y-6">
+          {
+            cv.education.map((entry) => (
+              <li>
+                <p class="text-lg font-semibold">{entry.degree}</p>
+                <p class="mt-1 text-muted">
+                  {[entry.school, entry.location].filter(Boolean).join(', ')}
+                </p>
+                <p class="mt-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+                  {entry.dates}
+                </p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-mono text-xs uppercase tracking-[0.2em] text-muted">Languages</h3>
+        <ul class="mt-4 space-y-3">
+          {
+            cv.languages.map((entry) => (
+              <li class="flex items-baseline justify-between gap-4 border-b border-line pb-3">
+                <span>{entry.language}</span>
+                <span class="font-mono text-xs uppercase tracking-wide text-muted">
+                  {entry.level}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

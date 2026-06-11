@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "siteTitle": "Edip Kerim Öztürk — Senior System Engineer · DevSecOps Specialist",
+    "description": "Senior System Engineer and DevSecOps Specialist with extensive experience bridging development, IT operations, and cybersecurity."
+  },
+  "identity": {
+    "name": "Edip Kerim Öztürk",
+    "title": "Senior System Engineer · DevSecOps Specialist",
+    "location": "Ankara, Turkey",
+    "email": "edip.ozt@gmail.com",
+    "linkedin": {
+      "label": "linkedin.com/in/edip-kerim-ozturk",
+      "url": "https://linkedin.com/in/edip-kerim-ozturk"
+    }
+  },
+  "summary": "Senior System Engineer and DevSecOps Specialist with extensive experience bridging development, IT operations, and cybersecurity. Adept at architecting highly scalable cloud and on-premise infrastructures while embedding robust security protocols natively into CI/CD pipelines. Proven expertise in zero-trust architectures, Kubernetes hardening, GitOps-driven delivery, network monitoring, and automated vulnerability management across enterprise and defense-sector environments.",
+  "competencies": [
+    "Secure SDLC & CI/CD Automation",
+    "Kubernetes & Container Security",
+    "Infrastructure as Code (IaC) & GitOps",
+    "Threat Modeling & Risk Assessment",
+    "Identity & Access Management (IAM)",
+    "SIEM, Auditing & Log Analysis",
+    "Vulnerability Management (SAST/DAST)",
+    "Network Monitoring & Observability",
+    "Compliance & STIGs Implementation",
+    "Reverse Engineering & Malware Analysis"
+  ],
+  "skills": [
+    {
+      "group": "Cloud & Infra",
+      "items": [
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "Rancher",
+        "ArgoCD",
+        "VMware ESXi",
+        "Proxmox",
+        "KVM",
+        "Vagrant",
+        "Linux (Debian, Ubuntu, RHEL-based)",
+        "Windows Server",
+        "Active Directory"
+      ]
+    },
+    {
+      "group": "Security",
+      "items": [
+        "Wazuh (SIEM)",
+        "Nmap",
+        "Metasploit",
+        "Wireshark",
+        "Snort",
+        "OSSEC",
+        "OpenVAS",
+        "Kali Linux",
+        "John the Ripper",
+        "Aircrack-ng",
+        "ClamAV",
+        "Suricata",
+        "Bro/Zeek",
+        "YARA",
+        "MISP",
+        "Lynis",
+        "Ghidra",
+        "OWASP ZAP",
+        "SCAP",
+        "PKI",
+        "IAM",
+        "iptables/nftables",
+        "OS Hardening",
+        "TCP/IP",
+        "Firewalls (Fortinet, Palo Alto, Check Point, Cisco, Sophos, Ruijie)"
+      ]
+    },
+    {
+      "group": "CI/CD & Automation",
+      "items": [
+        "Jenkins",
+        "Ansible",
+        "Terraform",
+        "ArgoCD",
+        "Bash",
+        "Python",
+        "PowerShell",
+        "Git",
+        "GitLab",
+        "GitHub"
+      ]
+    },
+    {
+      "group": "Monitoring",
+      "items": [
+        "Prometheus",
+        "Grafana",
+        "Zabbix",
+        "Observium",
+        "Elasticsearch",
+        "Kibana",
+        "Logstash",
+        "Fluentd",
+        "Beats"
+      ]
+    },
+    {
+      "group": "Web & Databases",
+      "items": [
+        "Apache",
+        "Nginx",
+        "HAProxy",
+        "Tomcat",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "MSSQL",
+        "Redis"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior System Engineer",
+      "company": "E2E Solutions",
+      "location": "Ankara",
+      "dates": "Dec 2025 – Present",
+      "bullets": [
+        "Architect and manage enterprise-grade Kubernetes clusters and Docker-based microservice deployments for infrastructure software products including S3-compatible object storage (Hafiz), unified DNS management (CortexDNS), and threat intelligence platforms (Batin).",
+        "Design and implement GitOps-driven CI/CD pipelines using ArgoCD, Jenkins, and Ansible, enabling automated, secure, and reproducible deployments across hybrid cloud and on-premise environments.",
+        "Deploy and maintain comprehensive monitoring and observability stacks using Prometheus, Grafana, Zabbix, and Observium, ensuring proactive infrastructure health management and rapid incident response.",
+        "Administer Linux-based server infrastructure and integrate identity management solutions (Active Directory, LDAP, FreeIPA) to enforce role-based access control and zero-trust security principles.",
+        "Collaborate on AML compliance advisory tooling and custom development projects in Rust, Go, Java (Spring Boot), and Python (FastAPI), ensuring secure coding practices and infrastructure reliability for financial-sector clients."
+      ]
+    },
+    {
+      "role": "Senior DevSecOps Specialist",
+      "company": "Mobiliz Bilgi ve İletişim Teknolojileri A.Ş.",
+      "location": "Ankara",
+      "dates": "Aug 2024 – Nov 2025",
+      "bullets": [
+        "Architected and hardened production Kubernetes clusters across hybrid-cloud environments, establishing a robust Secure SDLC by integrating automated SAST/DAST scanning into Jenkins CI/CD pipelines, accelerating secure release cycles and significantly reducing production vulnerabilities.",
+        "Orchestrated enterprise-grade zero-trust network architectures, proactively managing complex Next-Generation Firewall (NGFW) and Web Application Firewall (WAF) policies alongside highly available HAProxy load balancers, ensuring resilient uptime and robust protection against DDoS and APTs.",
+        "Integrated heterogeneous enterprise infrastructure by bridging Windows Server ecosystems with modern Linux environments, executing deep Active Directory hardening, and automating granular IAM provisioning via PowerShell and Bash workflows to enforce strict least-privilege principles.",
+        "Deployed and tuned advanced SIEM and observability stacks (Wazuh, ELK, Prometheus, Grafana), drastically cutting Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) by centralizing audit log analysis and automated threat intelligence correlations."
+      ]
+    },
+    {
+      "role": "Chief Information & Security Officer (CISO)",
+      "company": "Mantis Endüstri A.Ş.",
+      "location": "Ankara",
+      "dates": "Jan 2024 – Jul 2024",
+      "bullets": [
+        "Directed comprehensive enterprise-wide IT infrastructure and cybersecurity strategies, spearheading rigorous compliance frameworks across Linux and Windows Server ecosystems, fortifying the corporate security posture and ensuring readiness against regulatory audits.",
+        "Designed overarching enterprise network security architectures, establishing stringent policies across multi-vendor Next-Generation Firewalls (Sophos, Ruijie) and enterprise proxy servers, systematically reducing the organizational attack surface.",
+        "Spearheaded architectural modernization and security hardening of central Active Directory domains, enforcing strict GPO baselines and zero-trust authentication models to neutralize internal lateral movement risks.",
+        "Engineered resilient compliance workflows leveraging PowerShell and Python scripting to continuously audit hybrid system configurations, automatically remediating configuration drift and security misconfigurations.",
+        "Executed meticulous risk assessments and mandated robust enterprise data encryption (PKI) standards, overseeing complete lifecycle management of cryptographic keys."
+      ]
+    },
+    {
+      "role": "DevSecOps & Linux System Engineer",
+      "company": "ER&KUT Defense and Aerospace",
+      "location": "Ankara",
+      "dates": "2023",
+      "bullets": [
+        "Orchestrated the secure migration of critical development environments from Oracle VirtualBox to a highly available Proxmox virtual architecture, optimizing resource utilization and elevating virtualization security for defense-sector projects.",
+        "Executed deep vulnerability scanning across heterogeneous developer endpoints utilizing SCAP Tools, mapping complex risk landscapes and identifying critical vulnerabilities for targeted remediation.",
+        "Enforced strict defense-sector security compliance by implementing STIGs, updating group policies, and hardening Linux operating systems to meet military-grade security baselines.",
+        "Standardized secure web management protocols and deployed hardened infrastructure, streamlining the software supply chain for defense-grade security benchmarks."
+      ]
+    },
+    {
+      "role": "DevSecOps Engineer (Freelance)",
+      "company": null,
+      "location": "Remote / Global",
+      "dates": "2021 – 2023",
+      "bullets": [
+        "Engineered secure cluster orchestration environments using Kubernetes, Mesos-Marathon, and Docker, embedding security best practices into container lifecycles for highly available distributed applications.",
+        "Built automated Continuous Delivery pipelines via Jenkins, incorporating security gating mechanisms to autonomously block non-compliant code from reaching production."
+      ]
+    },
+    {
+      "role": "DevSecOps & System Administrator",
+      "company": "Turboard",
+      "location": "Ankara",
+      "dates": "2021",
+      "bullets": [
+        "Automated complex security administration tasks using advanced Bash and Python scripting, reducing manual overhead and standardizing incident response protocols.",
+        "Fortified Linux servers and Docker-Compose containerized applications through rigorous OS hardening, encrypted storage configurations, and proactive audit log analysis."
+      ]
+    },
+    {
+      "role": "Network Security Engineer",
+      "company": "Türkiye İş Bankası",
+      "location": "Istanbul",
+      "dates": "2019",
+      "bullets": [
+        "Managed complex enterprise network security architectures for a top-tier financial institution, optimizing firewall rule sets across Fortinet, Palo Alto, Check Point, and Cisco platforms to prevent unauthorized access and reduce false positives.",
+        "Secured enterprise proxy servers and administered HAProxy load balancers, ensuring continuous service delivery, high availability, and robust protection against network-level disruptions.",
+        "Conducted comprehensive network traffic analysis and deep packet inspection using Wireshark, identifying security bottlenecks and enforcing strict network segmentation to protect sensitive financial data."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Mathematics",
+      "school": "Bilkent University",
+      "location": "Ankara",
+      "dates": "2014 – 2017"
+    }
+  ],
+  "languages": [
+    { "language": "English", "level": "Professional Working Proficiency" },
+    { "language": "Russian", "level": "B2" },
+    { "language": "Turkish", "level": "Native" }
+  ],
+  "referencesPublic": false,
+  "referencesNote": "References available on request."
+}

@@ -1,0 +1,34 @@
+---
+import cv from '../data/cv.json';
+---
+
+<section id="experience" aria-labelledby="experience-title" class="border-b border-line">
+  <div class="mx-auto max-w-content px-5 py-16 sm:py-20">
+    <h2 id="experience-title" class="section-title">Professional Experience</h2>
+    <ol class="relative mt-10 space-y-14 border-l border-line pl-8">
+      {
+        cv.experience.map((job) => (
+          <li class="relative">
+            <span
+              aria-hidden="true"
+              class="absolute -left-[2.45rem] top-1.5 h-3 w-3 rounded-full border-2 border-accent bg-ink"
+            />
+            <h3 class="text-lg font-semibold">{job.role}</h3>
+            <p class="mt-1 text-muted">{[job.company, job.location].filter(Boolean).join(', ')}</p>
+            <p class="mt-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">{job.dates}</p>
+            <ul class="mt-5 space-y-3 text-sm leading-relaxed">
+              {job.bullets.map((bullet) => (
+                <li class="flex gap-3">
+                  <span aria-hidden="true" class="select-none text-accent">
+                    –
+                  </span>
+                  <span>{bullet}</span>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>

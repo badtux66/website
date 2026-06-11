@@ -1,0 +1,22 @@
+---
+import cv from '../data/cv.json';
+---
+
+<section id="references" aria-labelledby="references-title" class="border-b border-line">
+  <div class="mx-auto max-w-content px-5 py-16 sm:py-20">
+    <h2 id="references-title" class="section-title">References</h2>
+    {
+      !cv.referencesPublic && (
+        <div class="mt-8 max-w-prose rounded border border-line px-6 py-5">
+          <p class="text-lg">{cv.referencesNote}</p>
+          <p class="mt-3 text-sm text-muted">
+            <a class="link" href={`mailto:${cv.identity.email}`}>
+              Email {cv.identity.name}
+            </a>{' '}
+            to request reference contacts.
+          </p>
+        </div>
+      )
+    }
+  </div>
+</section>
